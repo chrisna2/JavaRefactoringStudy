@@ -36,6 +36,7 @@ public class Price {
 	*/
 	
 	// TO-BE
+	//임시 필드(Temporary Field) 정리
 	public double getPrice() {
 		return discountFactor(basePrice());
 	}
