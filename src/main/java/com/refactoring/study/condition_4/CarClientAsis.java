@@ -10,7 +10,8 @@ import java.util.Scanner;
  *
  */
 public class CarClientAsis {
-
+	
+	/*
 	//as-is
 	public static final int COMPACTCAR = 1;
 	public static final int SEDANCAR = 2;
@@ -37,6 +38,46 @@ public class CarClientAsis {
 			break;
 		}
 		
+		System.out.println("선택한 자동차의 현재속도는 "+currentSpeed+ " 입니다.");
+	}
+	*/
+	
+	
+	public static final int COMPACTCAR = 1;
+	public static final int SEDANCAR = 2;
+	public static final int SPORTCAR = 3;
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		int key = input.nextInt();
+		
+		
+		CarType carType = CarType.setType(key);
+		int currentSpeed = carType.speedUp(); 
+		
+		/* 
+		††††††††††††††††††††††††††††††††††††††††††††††††††††††††
+		int currentSpeed = 0; 
+		 
+		switch(key) {
+		case COMPACTCAR :
+			//실현 로직 : 반복되는 로직 파악 
+			currentSpeed = currentSpeed + 10;
+			System.out.println("경차가 선택되었습니다.");
+			break;
+		case SEDANCAR :
+			currentSpeed = currentSpeed + 20;
+			System.out.println("중형차가 선택되었습니다.");
+			break;
+		case SPORTCAR :
+			currentSpeed = currentSpeed + 30;
+			System.out.println("스포츠카가 선택되었습니다.");
+			break;
+		}
+		*/
+		
+		//리턴대상 currentSpeed
 		System.out.println("선택한 자동차의 현재속도는 "+currentSpeed+ " 입니다.");
 	}
 }

@@ -5,7 +5,8 @@ public abstract class CarType {
 	public static final int COMPACTCAR = 1;
 	public static final int SEDANCAR = 2;
 	public static final int SPORTCAR = 3;
-
+	
+	
 	public static CarType setType(int key) {
 		
 		switch(key) {
