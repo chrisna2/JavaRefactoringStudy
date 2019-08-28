@@ -30,7 +30,7 @@ public class Distance {
 		}
 		return result;
 	}
-	 */
+	*/
 	
 	//to-be
 	// 매서드 정리 : 하나의 변수에 여러개의 용도로 사용하지 마라
