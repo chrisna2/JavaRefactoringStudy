@@ -30,6 +30,9 @@ public class Person {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	//계속 커밋이 안되고 있다 이유가 뭔지..
+	
 	/*AS-IS
 	private String name;
 	private String officeAreaCode;
