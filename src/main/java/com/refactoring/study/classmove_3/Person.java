@@ -30,7 +30,6 @@ public class Person {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
 	/*AS-IS
 	private String name;
 	private String officeAreaCode;
